@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Doggo Den</title>
+    <meta
+      name="description"
+      content="Doggo Den: a modern one-page website about dogs—breeds, care tips, and fun facts."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">
+          <span class="brand-mark" aria-hidden="true">🐾</span>
+          <span class="brand-text">Doggo Den</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav-link" href="#breeds">Breeds</a>
+          <a class="nav-link" href="#care">Care</a>
+          <a class="nav-link" href="#facts">Facts</a>
+          <a class="nav-link" href="#faq">FAQ</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="chip" id="themeToggle" type="button" aria-pressed="false">
+            <span class="chip-icon" aria-hidden="true">🌙</span>
+            <span class="chip-text">Dark</span>
+          </button>
+          <a class="btn btn-primary" href="#breeds">Explore</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Friendly guide</p>
+            <h1 class="hero-title">Everything you love about dogs, in one place.</h1>
+            <p class="hero-subtitle">
+              Browse popular breeds, get practical care tips, and learn fun facts. Built as a
+              fast, simple, offline-friendly page.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#breeds">See breeds</a>
+              <a class="btn btn-ghost" href="#care">Care checklist</a>
+            </div>
+
+            <div class="stats" role="list" aria-label="Quick stats">
+              <div class="stat" role="listitem">
+                <div class="stat-value" id="statBreeds">—</div>
+                <div class="stat-label">Featured breeds</div>
+              </div>
+              <div class="stat" role="listitem">
+                <div class="stat-value">5</div>
+                <div class="stat-label">Care essentials</div>
+              </div>
+              <div class="stat" role="listitem">
+                <div class="stat-value">100%</div>
+                <div class="stat-label">No build tools</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="Dog illustration">
+            <div class="hero-art" role="img" aria-label="Abstract dog illustration">
+              <svg
+                viewBox="0 0 540 420"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <defs>
+                  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="var(--accent)" stop-opacity="1" />
+                    <stop offset="1" stop-color="var(--accent2)" stop-opacity="1" />
+                  </linearGradient>
+                  <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="16" />
+                  </filter>
+                </defs>
+                <circle cx="160" cy="140" r="92" fill="url(#g1)" filter="url(#blur)" opacity=".9" />
+                <circle cx="360" cy="180" r="120" fill="url(#g1)" filter="url(#blur)" opacity=".65" />
+                <path
+                  d="M185 255c20-52 62-85 111-85 65 0 118 58 118 129 0 58-37 103-82 103H230c-54 0-86-44-86-95 0-19 3-37 9-52l32 0z"
+                  fill="rgba(255,255,255,.14)"
+                  stroke="rgba(255,255,255,.18)"
+                  stroke-width="2"
+                />
+                <path
+                  d="M246 168c-30 10-52 32-62 60-6 18 2 37 22 43 28 8 63-15 86-31 23-16 60-29 81-23 18 5 31-8 26-25-9-30-45-55-88-55-23 0-46 7-65 21z"
+                  fill="rgba(255,255,255,.12)"
+                />
+                <circle cx="260" cy="270" r="8" fill="rgba(255,255,255,.7)" />
+                <circle cx="348" cy="270" r="8" fill="rgba(255,255,255,.7)" />
+                <path
+                  d="M302 290c0 18-14 32-32 32s-32-14-32-32"
+                  fill="none"
+                  stroke="rgba(255,255,255,.65)"
+                  stroke-width="6"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div class="hero-card-footer">
+              <div class="pill">Beginner-friendly</div>
+              <div class="pill">Mobile-first</div>
+              <div class="pill">Accessible</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="breeds">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">Popular dog breeds</h2>
+              <p class="section-subtitle">
+                Filter by traits. Each card includes a quick temperament snapshot and care notes.
+              </p>
+            </div>
+            <div class="controls" aria-label="Breed filters">
+              <label class="control">
+                <span class="control-label">Search</span>
+                <input
+                  id="breedSearch"
+                  class="input"
+                  type="search"
+                  placeholder="Try “friendly” or “shedding”…"
+                  autocomplete="off"
+                />
+              </label>
+              <label class="control">
+                <span class="control-label">Size</span>
+                <select id="breedSize" class="select">
+                  <option value="all">All</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+              </label>
+              <label class="control">
+                <span class="control-label">Energy</span>
+                <select id="breedEnergy" class="select">
+                  <option value="all">All</option>
+                  <option value="low">Low</option>
+                  <option value="moderate">Moderate</option>
+                  <option value="high">High</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="grid" id="breedGrid" aria-live="polite"></div>
+
+          <div class="empty-state" id="emptyState" hidden>
+            <h3>No matches</h3>
+            <p>Try clearing filters or searching for a different trait (like “gentle” or “smart”).</p>
+            <button class="btn btn-ghost" id="clearFilters" type="button">Clear filters</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="care">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">Care essentials</h2>
+              <p class="section-subtitle">A simple checklist for happy, healthy dogs.</p>
+            </div>
+            <button class="btn btn-ghost" id="resetChecklist" type="button">Reset checklist</button>
+          </div>
+
+          <div class="care">
+            <div class="care-card">
+              <h3 class="card-title">Daily & weekly checklist</h3>
+              <ul class="checklist" id="checklist">
+                <li>
+                  <label class="check">
+                    <input type="checkbox" data-item="walks" />
+                    <span>Exercise and enrichment (walks, play, sniff time)</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input type="checkbox" data-item="water" />
+                    <span>Fresh water and balanced food</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input type="checkbox" data-item="training" />
+                    <span>Short training session (5–10 minutes)</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input type="checkbox" data-item="groom" />
+                    <span>Grooming (brush/clean ears as needed)</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="check">
+                    <input type="checkbox" data-item="vet" />
+                    <span>Health basics (tick check, nails, vet plan)</span>
+                  </label>
+                </li>
+              </ul>
+              <div class="progress" aria-label="Checklist progress">
+                <div class="progress-row">
+                  <div class="progress-label" id="progressLabel">0% complete</div>
+                  <div class="progress-value" id="progressValue">0/5</div>
+                </div>
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="5">
+                  <div class="progress-fill" id="progressFill"></div>
+                </div>
+              </div>
+            </div>
+
+            <aside class="care-card tip-card" aria-label="Care tips">
+              <h3 class="card-title">Quick tips</h3>
+              <ul class="tips">
+                <li><strong>Routine</strong> helps dogs feel secure—keep meals and walks consistent.</li>
+                <li><strong>Socialization</strong> works best gently and early; reward calm curiosity.</li>
+                <li>
+                  <strong>Mental games</strong> (snuffle mats, puzzle feeders) tire dogs out fast.
+                </li>
+                <li><strong>Vet visits</strong>: prevention beats treatment—stay up to date.</li>
+              </ul>
+              <div class="callout">
+                <div class="callout-title">Note</div>
+                <div class="callout-body">
+                  This is general info, not medical advice. For health concerns, contact a veterinarian.
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="facts">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">Fun dog facts</h2>
+              <p class="section-subtitle">Tap for a new fact. Works offline.</p>
+            </div>
+            <button class="btn btn-primary" id="newFact" type="button">New fact</button>
+          </div>
+
+          <div class="fact-card" role="region" aria-label="Dog fact">
+            <div class="fact-quote" id="factText">Loading…</div>
+            <div class="fact-meta">
+              <span class="pill" id="factTag">Did you know?</span>
+              <button class="btn btn-ghost btn-small" id="copyFact" type="button">Copy</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title">FAQ</h2>
+              <p class="section-subtitle">Common questions for new dog people.</p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <details class="faq-item">
+              <summary>How much exercise does a dog need?</summary>
+              <div class="faq-body">
+                It depends on age, health, and breed. Many dogs do well with daily walks plus play and
+                training. High-energy breeds often need more structured activity and mental work.
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>What’s the best first dog?</summary>
+              <div class="faq-body">
+                Look for a temperament and energy level that fits your lifestyle. “Best” depends on
+                your schedule, space, and experience—and individual dogs vary a lot.
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>How do I reduce shedding?</summary>
+              <div class="faq-body">
+                Regular brushing helps most. Some coats benefit from specific grooming tools. If
+                shedding suddenly increases, check with a vet to rule out skin or health issues.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="brand brand-footer">
+            <span class="brand-mark" aria-hidden="true">🐾</span>
+            <span class="brand-text">Doggo Den</span>
+          </div>
+          <p class="muted">A tiny, local-friendly website about dogs.</p>
+        </div>
+        <div class="footer-right">
+          <a class="footer-link" href="#main">Back to top</a>
+          <span class="dot" aria-hidden="true">•</span>
+          <span class="muted" id="footerBuild">Built locally</span>
+        </div>
+      </div>
+    </footer>
+
+    <dialog class="dialog" id="breedDialog" aria-label="Breed details">
+      <div class="dialog-card">
+        <div class="dialog-head">
+          <div>
+            <div class="dialog-kicker" id="dialogKicker">Breed</div>
+            <div class="dialog-title" id="dialogTitle">—</div>
+          </div>
+          <button class="icon-btn" id="dialogClose" type="button" aria-label="Close dialog">
+            ✕
+          </button>
+        </div>
+        <div class="dialog-body" id="dialogBody"></div>
+        <div class="dialog-actions">
+          <button class="btn btn-ghost" id="dialogClose2" type="button">Close</button>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

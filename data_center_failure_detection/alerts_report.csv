@@ -1,0 +1,317 @@
+timestamp,server_id,issue_detected,severity,recommended_action
+2025-01-01 08:03:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:06:00,SRV-110,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 08:07:00,SRV-102,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:07:00,SRV-102,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 08:07:00,SRV-102,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 08:11:00,SRV-110,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:12:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:12:00,SRV-104,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 08:17:00,SRV-102,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:17:00,SRV-102,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 08:18:00,SRV-109,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 08:18:00,SRV-109,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 08:18:00,SRV-109,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 08:20:00,SRV-102,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 08:20:00,SRV-102,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 08:20:00,SRV-102,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 08:20:00,SRV-102,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 08:21:00,SRV-107,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 08:21:00,SRV-107,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 08:21:00,SRV-107,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 08:27:00,SRV-106,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 08:29:00,SRV-109,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:29:00,SRV-109,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 08:29:00,SRV-109,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 08:30:00,SRV-104,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 08:30:00,SRV-104,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 08:32:00,SRV-104,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 08:32:00,SRV-104,Power overload,Critical,Reduce non-critical servers; rebalance workloads; check PDU capacity and circuit breakers.
+2025-01-01 08:32:00,SRV-104,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 08:40:00,SRV-105,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 08:40:00,SRV-105,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 08:40:00,SRV-105,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 08:47:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:47:00,SRV-104,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 08:47:00,SRV-104,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 08:48:00,SRV-107,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:48:00,SRV-107,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 08:48:00,SRV-107,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 08:49:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 08:49:00,SRV-101,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 09:03:00,SRV-103,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:03:00,SRV-103,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:06:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:09:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:09:00,SRV-104,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:09:00,SRV-104,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 09:11:00,SRV-109,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:11:00,SRV-109,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 09:12:00,SRV-107,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:12:00,SRV-107,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 09:16:00,SRV-102,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:16:00,SRV-102,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:19:00,SRV-101,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 09:19:00,SRV-101,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:19:00,SRV-101,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 09:22:00,SRV-107,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:22:00,SRV-107,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:23:00,SRV-109,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 09:23:00,SRV-109,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:23:00,SRV-109,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 09:24:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:24:00,SRV-104,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 09:32:00,SRV-102,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:32:00,SRV-102,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:32:00,SRV-102,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 09:33:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:33:00,SRV-101,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:33:00,SRV-101,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 09:37:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:41:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 09:41:00,SRV-105,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 09:42:00,SRV-103,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 09:45:00,SRV-104,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 09:45:00,SRV-104,Power overload,Critical,Reduce non-critical servers; rebalance workloads; check PDU capacity and circuit breakers.
+2025-01-01 09:45:00,SRV-104,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 09:47:00,SRV-108,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 09:47:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:47:00,SRV-108,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 09:47:00,SRV-108,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 09:55:00,SRV-104,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 09:55:00,SRV-104,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 09:55:00,SRV-104,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 10:01:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:01:00,SRV-101,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 10:03:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 10:10:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:10:00,SRV-108,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 10:12:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:12:00,SRV-101,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 10:15:00,SRV-106,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 10:26:00,SRV-110,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 10:26:00,SRV-110,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 10:26:00,SRV-110,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 10:26:00,SRV-110,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 10:27:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:28:00,SRV-103,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:28:00,SRV-103,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 10:28:00,SRV-103,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 10:28:00,SRV-103,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 10:30:00,SRV-102,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:30:00,SRV-102,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 10:38:00,SRV-102,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 10:43:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:43:00,SRV-105,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 10:43:00,SRV-105,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 10:43:00,SRV-105,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 10:43:00,SRV-105,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 10:45:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:50:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:50:00,SRV-108,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 10:55:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 10:55:00,SRV-106,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 11:03:00,SRV-103,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 11:03:00,SRV-103,Power overload,Critical,Reduce non-critical servers; rebalance workloads; check PDU capacity and circuit breakers.
+2025-01-01 11:03:00,SRV-103,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 11:04:00,SRV-108,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 11:04:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:04:00,SRV-108,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 11:05:00,SRV-101,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:05:00,SRV-101,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:06:00,SRV-110,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:06:00,SRV-110,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 11:08:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:08:00,SRV-106,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:08:00,SRV-106,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:11:00,SRV-109,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 11:11:00,SRV-109,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:13:00,SRV-104,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 11:13:00,SRV-104,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:13:00,SRV-104,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 11:14:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:14:00,SRV-108,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 11:18:00,SRV-106,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 11:18:00,SRV-106,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:18:00,SRV-106,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 11:18:00,SRV-106,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 11:19:00,SRV-102,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:19:00,SRV-102,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:20:00,SRV-103,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:21:00,SRV-109,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 11:21:00,SRV-109,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:21:00,SRV-109,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 11:21:00,SRV-109,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 11:26:00,SRV-105,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:26:00,SRV-105,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:27:00,SRV-110,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:27:00,SRV-110,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:28:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:28:00,SRV-108,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 11:28:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:28:00,SRV-108,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 11:28:00,SRV-108,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 11:31:00,SRV-107,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:31:00,SRV-107,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:32:00,SRV-106,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 11:32:00,SRV-106,Power overload,Critical,Reduce non-critical servers; rebalance workloads; check PDU capacity and circuit breakers.
+2025-01-01 11:32:00,SRV-106,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 11:39:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:39:00,SRV-101,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 11:51:00,SRV-110,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 11:51:00,SRV-110,Power overload,Critical,Reduce non-critical servers; rebalance workloads; check PDU capacity and circuit breakers.
+2025-01-01 11:51:00,SRV-110,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 11:56:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:56:00,SRV-106,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:58:00,SRV-107,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 11:58:00,SRV-107,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 11:58:00,SRV-107,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 11:59:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 12:07:00,SRV-110,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 12:07:00,SRV-110,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 12:09:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 12:09:00,SRV-108,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 12:20:00,SRV-105,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 12:20:00,SRV-105,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 12:20:00,SRV-105,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 12:20:00,SRV-105,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 12:24:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 12:24:00,SRV-101,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 12:24:00,SRV-101,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 12:25:00,SRV-103,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 12:25:00,SRV-103,Power overload,Critical,Reduce non-critical servers; rebalance workloads; check PDU capacity and circuit breakers.
+2025-01-01 12:25:00,SRV-103,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 12:35:00,SRV-110,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 12:35:00,SRV-110,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 12:36:00,SRV-109,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 12:36:00,SRV-109,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 12:36:00,SRV-109,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 12:39:00,SRV-101,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 12:40:00,SRV-102,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 12:40:00,SRV-102,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 12:40:00,SRV-102,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 12:40:00,SRV-102,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 12:45:00,SRV-110,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 12:45:00,SRV-110,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 12:47:00,SRV-104,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 12:47:00,SRV-104,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 12:52:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 12:52:00,SRV-105,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 12:55:00,SRV-110,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 12:56:00,SRV-104,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 12:56:00,SRV-104,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 12:56:00,SRV-104,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 13:03:00,SRV-103,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:04:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:04:00,SRV-101,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 13:09:00,SRV-106,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 13:09:00,SRV-106,Critical power overload during outage,Critical,"Treat as incident: verify UPS/generator, shed load, restore power safely before bringing services back."
+2025-01-01 13:09:00,SRV-106,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 13:13:00,SRV-103,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 13:13:00,SRV-103,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 13:13:00,SRV-103,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 13:20:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:20:00,SRV-101,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 13:20:00,SRV-101,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 13:20:00,SRV-101,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 13:22:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:22:00,SRV-106,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 13:22:00,SRV-106,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 13:29:00,SRV-108,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 13:29:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 13:29:00,SRV-108,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 13:29:00,SRV-108,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 13:39:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:39:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 13:39:00,SRV-108,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 13:41:00,SRV-103,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 13:41:00,SRV-103,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 13:41:00,SRV-103,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 13:47:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:51:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:51:00,SRV-104,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 13:51:00,SRV-104,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 13:51:00,SRV-104,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 13:56:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:56:00,SRV-106,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 13:57:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 13:57:00,SRV-106,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 14:00:00,SRV-107,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 14:00:00,SRV-107,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 14:00:00,SRV-107,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 14:01:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 14:01:00,SRV-106,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 14:04:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 14:07:00,SRV-101,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 14:07:00,SRV-101,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 14:07:00,SRV-101,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 14:14:00,SRV-103,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 14:14:00,SRV-103,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 14:22:00,SRV-109,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 14:22:00,SRV-109,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 14:28:00,SRV-106,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 14:34:00,SRV-102,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 14:34:00,SRV-102,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 14:36:00,SRV-108,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 14:36:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 14:36:00,SRV-108,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 14:38:00,SRV-107,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 14:40:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 14:40:00,SRV-108,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 14:40:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 14:40:00,SRV-108,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 14:40:00,SRV-108,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 14:50:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:01:00,SRV-106,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:01:00,SRV-106,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 15:06:00,SRV-103,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 15:06:00,SRV-103,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:06:00,SRV-103,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 15:06:00,SRV-103,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 15:07:00,SRV-110,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:07:00,SRV-110,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 15:11:00,SRV-102,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:13:00,SRV-107,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 15:13:00,SRV-107,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:13:00,SRV-107,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 15:13:00,SRV-107,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 15:16:00,SRV-103,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:16:00,SRV-103,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 15:18:00,SRV-104,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 15:18:00,SRV-104,Power overload,Critical,Reduce non-critical servers; rebalance workloads; check PDU capacity and circuit breakers.
+2025-01-01 15:18:00,SRV-104,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 15:26:00,SRV-107,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 15:26:00,SRV-107,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:26:00,SRV-107,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 15:31:00,SRV-101,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:33:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:33:00,SRV-105,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 15:33:00,SRV-105,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:33:00,SRV-105,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 15:36:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:36:00,SRV-105,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 15:37:00,SRV-102,Severe overheating with cooling failure,Critical,"Escalate immediately: reduce load, engage on-site cooling repair, consider controlled shutdown if temperature rises further."
+2025-01-01 15:37:00,SRV-102,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:37:00,SRV-102,Host or service down,Critical,"Check hardware, power, and OS; failover if available; open incident ticket."
+2025-01-01 15:37:00,SRV-102,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 15:39:00,SRV-106,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 15:40:00,SRV-109,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:46:00,SRV-110,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:46:00,SRV-110,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:46:00,SRV-110,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 15:47:00,SRV-107,Elevated network latency,Warning,Monitor latency trend; review utilization and QoS; check for background sync jobs.
+2025-01-01 15:51:00,SRV-104,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:51:00,SRV-104,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:54:00,SRV-108,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 15:54:00,SRV-108,High power load,Warning,Plan capacity; defer batch jobs; review power trending.
+2025-01-01 15:54:00,SRV-108,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 16:00:00,SRV-110,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 16:00:00,SRV-110,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 16:04:00,SRV-106,High temperature,Critical,Check airflow and cooling; reduce CPU load; verify CRAC/chiller and rack fans.
+2025-01-01 16:04:00,SRV-106,Power overload,Critical,Reduce non-critical servers; rebalance workloads; check PDU capacity and circuit breakers.
+2025-01-01 16:04:00,SRV-106,Major network degradation (latency + packet loss),Critical,"Check switches, uplinks, and errors on NICs; isolate flapping links; engage network team."
+2025-01-01 16:14:00,SRV-105,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 16:14:00,SRV-105,Cooling system failure,Critical,Dispatch facilities/cooling vendor; track inlet temps; shed non-critical workloads.
+2025-01-01 16:16:00,SRV-102,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
+2025-01-01 16:18:00,SRV-103,Elevated temperature,Warning,Monitor trend; verify cooling setpoints and rack ventilation.
+2025-01-01 16:18:00,SRV-103,Severe network latency,Critical,"Trace path; check congestion, DNS, and upstream provider; review recent changes."
