@@ -1,7 +1,2 @@
-## Screenshots
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Alerts Output
-![Alerts](screenshots/alerts.png)
+![Dashboard](data_center_failure_detection/screenshots/dashboard.png)
+![Alerts](data_center_failure_detection/screenshots/alerts.png)
